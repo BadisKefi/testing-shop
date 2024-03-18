@@ -7,6 +7,11 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    /* I WROTE THIS FONTFAMILY BUT I DON't KNOW IF THEY IMPACT IS WIDE OR NARROW */
+    fontFamily: {
+      oswald: "Oswald, sans-serif",
+      urbanist: "Urbanist, sans-serif",
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
